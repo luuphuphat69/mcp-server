@@ -5,7 +5,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "build": "tsc && chmod 755 build/server.js"
+    "build": "tsc"
   },
   "files": ["build"],
   "keywords": [],

@@ -1,4 +1,4 @@
-async function makeCurrentWeatherRequest<T>(url: string): Promise<T | null> {
+export async function makeCurrentWeatherRequest<T>(url: string): Promise<T | null> {
   const headers = {
     "User-Agent": "weather-app/1.0",
     Accept: "*/*",
